@@ -14,9 +14,16 @@ This Github project contains several files:
 
 ## 2. Description of `run_analysis.R` Script
 
+### Load necessary libraries
+In the first step, the **dplyr** library is loaded to make sure **dplyr** functions are available when they are used later on.
+```R
+# Load dplyr library
+library(dplyr)
+```
+
 ### Read Data
 
-In a first step, the script first reads all data from the respective files using the `read.table` function to make use of the default values for headers already set to **FALSE** and separator set to **""**.
+In the next step, the script first reads all data from the respective files using the `read.table` function to make use of the default values for headers already set to **FALSE** and separator set to **""**.
 
 ```R
 # Read master data

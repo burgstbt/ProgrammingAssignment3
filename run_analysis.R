@@ -1,3 +1,9 @@
+## Load necessary libraries
+
+# Load dplyr library
+library(dplyr)
+
+
 ## Read data from files
 
 # Read master data
@@ -46,6 +52,4 @@ data <- data[c(2,3,grep("[Mm]ean|std", names(data)))]
 
 ## Create data set with average of each variable for each activity
 ## and each subject
-data_mean <- data %>%
-  group_by(SubjectID,Activity) %>%
-  summarize_all(funs(mean))
+data_mean <- data %>% group_by(SubjectID,Activity) %>% summarize_all(funs(mean))
