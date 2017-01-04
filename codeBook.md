@@ -1,7 +1,5 @@
----
-title: "Code Book"
-output: html_document
----
+# Code Book
+
 
 This code book describes the data set that is produced by the script `run_analysis.R` in this Github repository.
 The base data for the data set is available from this website: <http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones>

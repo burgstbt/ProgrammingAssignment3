@@ -1,7 +1,5 @@
----
-title: "Analysis of Activity Tracking Data"
-output: html_document
----
+# Analysis of Activity Tracking Data
+
 
 This project is about tidying, transforming and analysing data from an accelerometers eperiment from the Samsung Galaxy S smartphone. Detailed information about the data sets origin are available under <http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones>
 
